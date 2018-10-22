@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>test</groupId>
   <artifactId>test</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>0.0.2-SNAPSHOT</version>
   <name>testmaven</name>
   <description>java proj to maven project</description>
   <build>
@@ -35,12 +35,12 @@
     </build>
     <distributionManagement>
 <repository>
- <id>Repo</id>
+ <id>localnexus</id>
  <name>MyCo Internal Repository</name>
  <url>http://192.168.218.144:8081/nexus/content/repositories/Repo</url>
 </repository>
 <snapshotRepository>
- <id>snapshots</id>
+ <id>localnexus</id>
  <name>Your Snapshot Repository</name>
  <url>http://192.168.218.144:8081/nexus/content/repositories/snapshots</url>
 </snapshotRepository>
