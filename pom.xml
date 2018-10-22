@@ -35,12 +35,12 @@
     </build>
     <distributionManagement>
 <repository>
- <id>localnexus</id>
+ <id>Repo</id>
  <name>MyCo Internal Repository</name>
  <url>http://192.168.218.144:8081/nexus/content/repositories/Repo</url>
 </repository>
 <snapshotRepository>
- <id>localnexus</id>
+ <id>snapshots</id>
  <name>Your Snapshot Repository</name>
  <url>http://192.168.218.144:8081/nexus/content/repositories/snapshots</url>
 </snapshotRepository>
